@@ -35,4 +35,9 @@
    echo "Fruit 4 = " . $fruits[3];
    echo "<br>";
    echo "Fruit 5 = " . $fruits[4];
+   echo "<br><br><br>";
+   //Question 3
+   $cities = array("Paris","London","New York","Islamabad","Peshawar","Washington");
+   array_push($cities, "Lyon", "Berlin","Palermo");
+   print_r($cities);
 ?>
